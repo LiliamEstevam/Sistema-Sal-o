@@ -1,0 +1,396 @@
+{
+  "id": "2a881cca-ffbf-4b1f-95cd-58e9666302ea",
+  "version": "2.0",
+  "name": "salao",
+  "url": "http://localhost/salao/telas/formCadServico.php",
+  "tests": [{
+    "id": "0ae95f73-6f2c-4763-a9a8-a9ac5392275f",
+    "name": "cadFuncionario",
+    "commands": [{
+      "id": "6e86be31-e13d-4164-a055-80ec62dc3d3f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/salao/telas/formCadFuncionario.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "055deda0-fce3-443f-9825-2e55c91327f0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0bac1063-6eb0-464a-9689-a535c901f284",
+      "comment": "",
+      "command": "click",
+      "target": "name=cpfFuncionario",
+      "targets": [
+        ["name=cpfFuncionario", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='cpfFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fad254f-dff3-4c52-a6d6-4446c9302323",
+      "comment": "",
+      "command": "type",
+      "target": "name=cpfFuncionario",
+      "targets": [
+        ["name=cpfFuncionario", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='cpfFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0901023012"
+    }, {
+      "id": "1240ec85-3f84-4101-bf29-30754c0a580e",
+      "comment": "",
+      "command": "click",
+      "target": "name=nomeFuncionario",
+      "targets": [
+        ["name=nomeFuncionario", "name"],
+        ["css=label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='nomeFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86b8357c-02e4-4e74-872c-225384abd76b",
+      "comment": "",
+      "command": "type",
+      "target": "name=nomeFuncionario",
+      "targets": [
+        ["name=nomeFuncionario", "name"],
+        ["css=label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='nomeFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "MARIA"
+    }, {
+      "id": "47ef526f-c018-40cc-b63e-b05985a8c382",
+      "comment": "",
+      "command": "type",
+      "target": "name=servicoFuncionario",
+      "targets": [
+        ["name=servicoFuncionario", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='servicoFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "CABELO"
+    }, {
+      "id": "c4203fcd-a384-4afa-83e2-0ffa10ad10eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea16aa11-e7dd-4e23-9d7d-8207b0b49b5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Funcionário cadastrado com sucesso!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9d867c7-25de-4536-a5d6-1f2c92854da2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Funcionário cadastrado com sucesso!')]", "xpath:innerText"]
+      ],
+      "value": "Funcionário cadastrado com sucesso!"
+    }]
+  }, {
+    "id": "b7c451bb-c064-45ad-bca2-9efeb34cdcf2",
+    "name": "cadFuncionarioCPF",
+    "commands": [{
+      "id": "2ee6c4fa-15ee-4767-8daf-02b7c51ba8d5",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/salao/telas/formCadFuncionario.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1287c59b-8f74-4877-9bce-7afe234d6d0c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91686f97-1569-4c8e-8b30-2dcc07120d3f",
+      "comment": "",
+      "command": "click",
+      "target": "name=cpfFuncionario",
+      "targets": [
+        ["name=cpfFuncionario", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='cpfFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23238a14-e2cb-4c12-9405-3aff82bf49ee",
+      "comment": "",
+      "command": "type",
+      "target": "name=cpfFuncionario",
+      "targets": [
+        ["name=cpfFuncionario", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='cpfFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "461673f5-ef06-4181-ab22-e739b75abad3",
+      "comment": "",
+      "command": "type",
+      "target": "name=nomeFuncionario",
+      "targets": [
+        ["name=nomeFuncionario", "name"],
+        ["css=label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='nomeFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "THAY"
+    }, {
+      "id": "3f998ad6-8f4e-4986-bfd6-77e63c8711d6",
+      "comment": "",
+      "command": "click",
+      "target": "name=servicoFuncionario",
+      "targets": [
+        ["name=servicoFuncionario", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='servicoFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfb481b4-451c-42f5-96a8-aca31a212744",
+      "comment": "",
+      "command": "click",
+      "target": "name=cpfFuncionario",
+      "targets": [
+        ["name=cpfFuncionario", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='cpfFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a92362b-9df1-4c81-a998-9aba2feb5539",
+      "comment": "",
+      "command": "type",
+      "target": "name=cpfFuncionario",
+      "targets": [
+        ["name=cpfFuncionario", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='cpfFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1234567"
+    }, {
+      "id": "5f08918f-5f1f-42f5-9a03-3f853910acb3",
+      "comment": "",
+      "command": "click",
+      "target": "name=servicoFuncionario",
+      "targets": [
+        ["name=servicoFuncionario", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='servicoFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c419e2c-14de-4478-b5d2-9c8467347b74",
+      "comment": "",
+      "command": "type",
+      "target": "name=servicoFuncionario",
+      "targets": [
+        ["name=servicoFuncionario", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='servicoFuncionario']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "cabelo"
+    }, {
+      "id": "24bb1499-9464-46f6-bc6f-e8820a02f303",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Funcionário com CPF informado já está cadastrado!"
+    }, {
+      "id": "2bf38a63-b5fc-42a0-b53e-cb092633f2f9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [],
+      "value": "Funcionário com CPF informado já está cadastrado!"
+    }]
+  }, {
+    "id": "53d540f1-67fb-4e78-b129-67ffb05a4b28",
+    "name": "cadServico",
+    "commands": [{
+      "id": "4a924654-de90-41c8-b3d3-1f51a7f8e11e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/salao/telas/formCadServico.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51c04aaa-a5e4-48ad-9ff6-748cf29fb33e",
+      "comment": "",
+      "command": "click",
+      "target": "name=nomeServico",
+      "targets": [
+        ["name=nomeServico", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='nomeServico']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a99c6e76-31a6-441c-b839-308d44ba7a99",
+      "comment": "",
+      "command": "type",
+      "target": "name=nomeServico",
+      "targets": [
+        ["name=nomeServico", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='nomeServico']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "THAY"
+    }, {
+      "id": "bfbcaa53-be2a-4896-ae90-c4b4a0137c10",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipoServico",
+      "targets": [
+        ["name=tipoServico", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='tipoServico']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30b621de-38dd-47ac-a0f8-b813c814c826",
+      "comment": "",
+      "command": "type",
+      "target": "name=tipoServico",
+      "targets": [
+        ["name=tipoServico", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='tipoServico']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "unha"
+    }, {
+      "id": "2a8ac043-0aaf-4154-9061-e1fc4a1befd4",
+      "comment": "",
+      "command": "type",
+      "target": "name=tempoServico",
+      "targets": [
+        ["name=tempoServico", "name"],
+        ["css=label:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='tempoServico']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "3a4ba141-59cf-4e6b-bc53-a129c1d65992",
+      "comment": "",
+      "command": "type",
+      "target": "name=descricaoServico",
+      "targets": [
+        ["name=descricaoServico", "name"],
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='descricaoServico']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "cabelo"
+    }, {
+      "id": "f5e40e6b-32b6-4da4-a4a7-60582f05b29b",
+      "comment": "",
+      "command": "type",
+      "target": "name=valorServico",
+      "targets": [
+        ["name=valorServico", "name"],
+        ["css=label:nth-child(9) > input", "css:finder"],
+        ["xpath=//input[@name='valorServico']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/label[5]/input", "xpath:idRelative"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "e3dc2907-b3d7-45f3-bd70-2765223b84c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(11)",
+      "targets": [
+        ["css=input:nth-child(11)", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49a65666-b434-4b2b-87cc-4574df9f8eef",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [],
+      "value": "Serviço cadastrado com sucesso!"
+    }]
+  }],
+  "suites": [{
+    "id": "db076950-fd81-4536-835d-2d6ad3d78a18",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0ae95f73-6f2c-4763-a9a8-a9ac5392275f"]
+  }],
+  "urls": ["http://localhost/salao/telas/formCadFuncionario.php", "http://localhost/salao/telas/formCadServico.php"],
+  "plugins": []
+}

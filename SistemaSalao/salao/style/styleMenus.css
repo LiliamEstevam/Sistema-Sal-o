@@ -1,0 +1,200 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('fundo1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  background-color: #fce8e8;
+}
+.menu a {
+    margin: 0 10px;
+  }
+  
+  .menu button {
+    padding: 5px 10px; 
+    cursor: pointer; 
+  }
+  
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #fce8e8; 
+    padding: 20px;
+  }
+  
+  .rodape a {
+    margin: 0 10px;
+  }
+  
+  .rodape button {
+    padding: 5px 10px;  
+    cursor: pointer; 
+  }
+  
+input[type=submit] {
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: pink;
+    border: none;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    margin-left: -17%;
+  }
+  
+  .tabela table {
+    border-collapse: collapse;
+    width: 170%;
+    margin-top: 20px;
+
+  }
+  
+  .tabela th, .tabela td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #816b6b;
+    color: white;
+  }
+  
+  .tabela tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tabela tr:hover {background-color: #ddd;}
+  
+  .tabela a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+  .tabelaagenda {
+    display: flex;
+    justify-content: center;
+    margin-left: -17%;
+  }
+  
+  .tabelaagenda table {
+    border-collapse: collapse;
+    width: 150%;
+    margin-top: 20px;
+
+  }
+  
+  .tabelaagenda th, .tabela td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .tabelaagenda th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #816b6b;
+    color: white;
+  }
+  
+  .tabelaagenda tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tabelaagenda tr:hover {background-color: #ddd;}
+  
+  .tabelaagenda a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    
+}
+
+form {
+    display: flexbox;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    width: 60%;
+    margin-left: 16%;
+    
+}
+#cadServico {
+    display: flexbox;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    width: 60%;
+    margin-left: 6%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+input[type=submit] {
+    width: 7%;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: pink;
+    border: none;
+}
+a[role="button"] {
+        display: inline-block;
+        margin: 10px;
+        padding: 4px ;
+        text-decoration: none;
+        background-color:  pink;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        font-size: 14px;
+        color:black;
+        width: 5%;
+    }
+    
+
+#restricao {
+    width: 70%;
+
+}
+#nome {
+    width: 75%;
+
+}
+#cpf {
+    width: 35%;
+
+}
