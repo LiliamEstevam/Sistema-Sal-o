@@ -1,0 +1,366 @@
+{
+  "id": "d86479f0-2876-48c9-9129-49c1d7ce97b5",
+  "version": "2.0",
+  "name": "Cliente",
+  "url": "http://localhost/SistemaSalao/salao/cliente1.php",
+  "tests": [{
+    "id": "cac7b82c-bc0e-4d85-8c86-38a6a01c48d2",
+    "name": "CadCliente",
+    "commands": [{
+      "id": "4c85ce58-d718-4af5-bc86-dbbd3c628cd6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/SistemaSalao/salao/cliente1.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7343404-37cb-4560-ac75-b6751e1f5d40",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "818x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06718b3a-2a4a-40d3-8db5-65304e20c535",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rodape > a:nth-child(1) > button",
+      "targets": [
+        ["css=.rodape > a:nth-child(1) > button", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar cliente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e7b30f4-25da-4bf9-ba8d-8c828370eaf9",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpfCliente", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "815bc5f0-4c07-4bdc-a6b2-92e2a139870c",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpfCliente", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "f4e18e7a-5da9-49cf-8ab6-9dd835621700",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nomeCliente", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "anaa"
+    }, {
+      "id": "55570f46-750b-4e23-9d6e-7d09eec0f4cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=restricao",
+      "targets": [
+        ["id=restricao", "id"],
+        ["name=restricaoCliente", "name"],
+        ["css=#restricao", "css:finder"],
+        ["xpath=//input[@id='restricao']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "Formol"
+    }, {
+      "id": "ef7fee84-80be-40e0-97a9-334ee7c524d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Salvar']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3b90c3f3-3c0b-4af2-98e7-e5929de7985b",
+    "name": "AltCliente",
+    "commands": [{
+      "id": "2eca9437-8cc3-47ff-a193-ffc60cdb4f74",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/SistemaSalao/salao/cliente1.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db669e03-5a6b-413c-8cc3-81bf309ac85d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "818x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd8cb172-bc5c-471e-ba55-e1f735beb65c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=📝",
+      "targets": [
+        ["linkText=📝", "linkText"],
+        ["css=td:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'📝')]", "xpath:link"],
+        ["xpath=//a[contains(@href, './telas/formAlterarCliente.php?cpf=123456')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'📝')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f91bfbe6-d7bb-4bc5-97d6-94d007acfe8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div",
+      "targets": [
+        ["css=div", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80fa274-a34c-42de-86c5-f2d1f7f2d5c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nomeCliente", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "Bia"
+    }, {
+      "id": "57769a93-d528-4158-bfb9-e15967c1d124",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Salvar']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e7179fcc-05fd-49dd-b9da-5638962fa38c",
+    "name": "CadClienteExist",
+    "commands": [{
+      "id": "9f13d86b-6bb2-4f2a-841f-5384f203a36d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/SistemaSalao/salao/cliente1.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a81f9f7-2a87-453b-b69a-19614362c646",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "818x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b4decaa-de11-456e-a295-0c0c8c79e771",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rodape > a:nth-child(1) > button",
+      "targets": [
+        ["css=.rodape > a:nth-child(1) > button", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar cliente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e10c6029-67e4-4e0a-a9ef-2bf7b8d7856f",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpfCliente", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78f48180-faaa-4baa-a5b5-3832546b0618",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpfCliente", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "e7d51cbf-6c94-49d5-b742-161c5ddcad6c",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nomeCliente", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "joca"
+    }, {
+      "id": "eb3f7697-5638-4ba1-aa88-54c7e7439ea7",
+      "comment": "",
+      "command": "type",
+      "target": "id=restricao",
+      "targets": [
+        ["id=restricao", "id"],
+        ["name=restricaoCliente", "name"],
+        ["css=#restricao", "css:finder"],
+        ["xpath=//input[@id='restricao']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "kjhjkh"
+    }, {
+      "id": "cf87a013-adca-4cbe-93ba-0e8b4917a3b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Salvar']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "10bafdf0-08d4-43ab-9857-6cd55e31b5a5",
+    "name": "remClient",
+    "commands": [{
+      "id": "17de6d79-2e16-433b-8882-25bd1f06f09b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/SistemaSalao/salao/cliente1.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dde910c6-968c-4cf7-9a67-7503cfce79d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "818x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddf0d99d-f569-49fd-abd7-0f451eb166c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rodape > a:nth-child(1) > button",
+      "targets": [
+        ["css=.rodape > a:nth-child(1) > button", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar cliente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3df96d78-8f2e-4fa8-b254-563e55ca0af6",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpfCliente", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0eae1bf-503f-4124-a5db-0fbe448fa123",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpfCliente", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "ddc65a79-e8ac-498d-b162-c59a64ec6fb9",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nomeCliente", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "Boi"
+    }, {
+      "id": "9b4e5741-01df-434d-b949-81fc96f0398e",
+      "comment": "",
+      "command": "type",
+      "target": "id=restricao",
+      "targets": [
+        ["id=restricao", "id"],
+        ["name=restricaoCliente", "name"],
+        ["css=#restricao", "css:finder"],
+        ["xpath=//input[@id='restricao']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "jkkjhk"
+    }, {
+      "id": "386d64a3-3c1f-4f2e-83de-00b97dbbb7f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Salvar']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9af17044-0733-433a-854e-17b1e3d522de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=❌",
+      "targets": [
+        ["linkText=❌", "linkText"],
+        ["css=td:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'❌')]", "xpath:link"],
+        ["xpath=//a[contains(@href, './telas/removerCliente.php?cpf=123456')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'❌')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [],
+  "urls": ["http://localhost/SistemaSalao/salao/cliente1.php"],
+  "plugins": []
+}
